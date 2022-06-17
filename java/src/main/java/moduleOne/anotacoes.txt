@@ -1,0 +1,28 @@
+Padrão de definição de variavel:
+
+<?visibilidade?><?modificador?>tipo nome<?=valorInicial?>;
+
+visibilidade: "public", "protected" e "private"
+modificador: "static" e "final"(constantes)
+tipo: tipo de dado
+
+Quando a váriavel é final por boas práticas devemos colocar o "_" e todas as letras maiusculas
+
+int final NUMERO_TENTATIVAS = 5;
+
+
+Casting:
+
+Vai do tipo menos especifico ao mais especifico e vice-versa
+
+Para upcast não precisamos colocar explicito para qual dado ele se tornará
+
+Já o downcast precisamos declarar assim:
+
+int i; float f=10.5f; i = (int) f;
+
+Temos que tomar cuidado com o downcast pq pode ocorrer perda de informação
+
+
+
+
